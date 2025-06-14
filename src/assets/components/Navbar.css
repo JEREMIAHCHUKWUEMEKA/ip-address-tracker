@@ -1,0 +1,113 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    padding: 1rem 1.5rem;
+    background-color: #1e1e2f;
+    color: white;
+    overflow: hidden;
+    position: relative;
+    height: 70px;
+    flex-wrap: nowrap;
+  }
+  
+  /* Logo container */
+  .logo-container {
+    flex-shrink: 0;
+  }
+  
+  /* Logo image */
+  .logo {
+    height: 40px;
+    width: auto;
+    border-radius: 50%;
+  }
+  
+  /* Scrolling text container */
+  .scrolling-text-container {
+    margin-left: 20px;
+    white-space: nowrap;
+    overflow: hidden;
+    flex: 1;
+    position: relative;
+  }
+  
+  /* Scrolling text animation */
+  .scrolling-text {
+    display: inline-block;
+    animation: scroll-left 20s linear infinite;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #ffffff;
+  }
+  
+  @keyframes scroll-left {
+    0% {
+      transform: translateX(100%);
+    }
+  
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+  
+  /* Small phones (up to 375px) */
+  @media (max-width: 375px) {
+    .navbar {
+      padding: 0.5rem 1rem;
+      height: 60px;
+      
+    }
+  
+    .logo {
+      height: 30px;
+    }
+  
+    .scrolling-text {
+      font-size: 0.75rem;
+    }
+  }
+  
+  /* Phones and small devices (376px - 600px) */
+  @media (max-width: 600px) {
+    .navbar {
+      padding: 0.5rem 1.2rem;
+    }
+  
+    .logo {
+      height: 35px;
+    }
+  
+    .scrolling-text {
+      font-size: 0.85rem;
+    }
+  }
+  
+  /* Tablets (601px - 900px) */
+  @media (max-width: 900px) {
+    .navbar {
+      padding: 0.8rem 1.5rem;
+    }
+  
+    .logo {
+      height: 38px;
+    }
+  
+    .scrolling-text {
+      font-size: 0.95rem;
+    }
+  }
+  
+  /* Laptops (901px - 1200px) */
+  @media (max-width: 1200px) {
+    .scrolling-text {
+      font-size: 1rem;
+    }
+  }
+  
+  /* Large desktops */
+  @media (min-width: 1201px) {
+    .scrolling-text {
+      font-size: 1.1rem;
+    }
+  }
+  
