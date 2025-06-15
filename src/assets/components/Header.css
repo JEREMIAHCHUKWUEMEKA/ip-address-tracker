@@ -12,7 +12,6 @@
     font-size: 2rem;
   }
   
-  /* Search Form */
   form {
     display: flex;
     justify-content: center;
@@ -40,7 +39,7 @@
   
   @media (max-width: 740px ) {
     .header {
-      background-image: url('/images/pattern-bg-mobile.png'); /* Use mobile image */
+      background-image: url('/images/pattern-bg-mobile.png'); 
       padding: 1.5rem 0rem;
     }
   
@@ -55,12 +54,6 @@
       align-items: center;
       flex-wrap: wrap;
     }
-  
-    /* input, button {
-      border-radius: 8px;
-      width: 100%;
-      max-width: 100%;
-    } */
   
     button {
       margin-top: 0.rem;

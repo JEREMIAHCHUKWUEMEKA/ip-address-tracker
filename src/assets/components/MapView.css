@@ -6,7 +6,6 @@
     min-height: 300px;
   }
   
-  /* Small devices (phones, up to 600px) */
   @media (max-width: 600px) {
     .map {
       height: 50vh;
@@ -14,14 +13,12 @@
     }
   }
   
-  /* Medium devices (tablets, 601px - 900px) */
   @media (max-width: 900px) {
     .map {
       height: 55vh;
     }
   }
   
-  /* Large screens (1200px and up) */
   @media (min-width: 1200px) {
     .map {
       height: 65vh;

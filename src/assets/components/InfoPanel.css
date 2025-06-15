@@ -13,21 +13,18 @@
     z-index: 10;
   }
   
-  /* Individual Info Boxes */
   .info-box {
     text-align: left;
     min-width: 200px;
     flex: 1;
   }
   
-  /* Title */
   .info-box h4 {
     font-size: 0.75rem;
     color: gray;
     margin-bottom: 0.25rem;
   }
   
-  /* Responsive Adjustments */
   @media (max-width: 768px) {
     .info-panel {
       /* gap: 1rem; */
