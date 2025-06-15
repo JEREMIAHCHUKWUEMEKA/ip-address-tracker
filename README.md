@@ -35,7 +35,7 @@ Users should be able to:
 
 ### Screenshot
 
-![Screenshot of IP Tracker](./public/Screenshot%20.jpg)
+![Screenshot of IP Tracker](./public/screenshot%20.jpg)
 
 > You can capture a screenshot and replace `screenshot.jpg` with your actual image in the repo.
 
